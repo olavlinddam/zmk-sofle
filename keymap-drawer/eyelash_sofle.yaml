@@ -29,7 +29,7 @@ layers:
   - $$mdi:apple-keyboard-caps$$
   - A
   - S
-  - D
+  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
   - F
   - G
   - $$mdi:arrow-left-bold$$
