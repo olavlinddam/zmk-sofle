@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: eyelash_sofle}
 layers:
   LAYER0:
   - $$mdi:keyboard-esc$$
@@ -29,16 +30,16 @@ layers:
   - $$mdi:apple-keyboard-caps$$
   - A
   - S
-  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
+  - D
+  - F
   - G
   - $$mdi:arrow-left-bold$$
   - H
-  - {t: J, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
+  - J
+  - K
   - L
   - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
+  - {t: Sft+', s: Sft+"}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -61,8 +62,8 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '2'
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:backspace-reverse-outline$$
   layer1:
   - {t: '`', s: '~'}
