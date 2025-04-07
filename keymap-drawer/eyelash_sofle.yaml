@@ -26,7 +26,7 @@ layers:
   - I
   - O
   - P
-  - F12
+  - '&aa'
   - $$mdi:apple-keyboard-caps$$
   - A
   - S
@@ -38,8 +38,8 @@ layers:
   - J
   - K
   - L
-  - F10
-  - F11
+  - '&ae'
+  - '&oe'
   - $$mdi:apple-keyboard-command$$
   - Z
   - X
