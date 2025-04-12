@@ -88,11 +88,11 @@
 
         symbol {
             bindings = <
-&none         &none            &none              &none       &none             &none            &mmv MOVE_UP     &none              &none             &none                 &none                  &none         &none
-&trans        &kp TILDE        &kp DOUBLE_QUOTES  &kp HASH    &kp LS(NUMBER_4)  &kp AMPERSAND    &mmv MOVE_DOWN   &kp LESS_THAN      &kp GREATER_THAN  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERCENT   &none
-&trans        &kp EXCLAMATION  &kp MINUS          &kp PLUS    &kp EQUAL         &kp SLASH        &mmv MOVE_LEFT   &kp DOUBLE_QUOTES  &kp PERIOD        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION  &none
-&kp LEFT_GUI  &kp SEMI         &kp UNDERSCORE     &kp CARET   &kp COLON         &kp BACKSLASH    &mmv MOVE_RIGHT  &kp SQT            &kp PERIOD        &kp LA(LC(DA_N7))     &kp LC(LA(DA_N0))      &kp ASTERISK  &trans
-&kp C_MUTE    &kp LEFT_ALT     &kp LCTRL          &kp LSHIFT  &kp SPACE         &sl 0            &mkp LCLK        &kp ENTER          &kp BACKSPACE     &kp RIGHT_SHIFT       &kt RIGHT_CONTROL      &kp DELETE
+&none         &none            &none              &none       &none             &none            &mmv MOVE_UP     &none              &none             &none                     &none              &none            &none
+&trans        &kp TILDE        &kp DOUBLE_QUOTES  &kp HASH    &kp LS(NUMBER_4)  &kp AMPERSAND    &mmv MOVE_DOWN   &kp DA_LESS_THAN   &kp DA_LESS_THAN  &kp LS(LC(LEFT_BRACKET))  &kp LS(LC(DA_N9))  &kp LS(DA_N5)    &none
+&trans        &kp EXCLAMATION  &kp MINUS          &kp PLUS    &kp EQUAL         &kp SLASH        &mmv MOVE_LEFT   &kp DOUBLE_QUOTES  &kp PERIOD        &kp LS(DA_N8)             &kp LS(DA_N9)      &kp LS(DA_PLUS)  &none
+&kp LEFT_GUI  &kp SEMI         &kp UNDERSCORE     &kp CARET   &kp COLON         &kp BACKSLASH    &mmv MOVE_RIGHT  &kp SQT            &kp PERIOD        &kp DA_LEFT_BRACE         &kp LC(LA(DA_N0))  &kp ASTERISK     &trans
+&kp C_MUTE    &kp LEFT_ALT     &kp LCTRL          &kp LSHIFT  &kp SPACE         &sl 0            &mkp LCLK        &kp ENTER          &kp BACKSPACE     &kp RIGHT_SHIFT           &kt RIGHT_CONTROL  &kp DELETE
             >;
 
             display-name = "layer1";
