@@ -70,15 +70,7 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        rclickmouse {
-            bindings = <&kp LEFT_SHIFT>;
-            key-positions = <58>;
-            layers = <1 2 0 3>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
