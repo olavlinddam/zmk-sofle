@@ -92,7 +92,7 @@
 &none       &none            &none              &none         &none             &none            &mmv MOVE_UP     &none              &none             &none                 &none                  &none         &none
 &trans      &kp TILDE        &kp DOUBLE_QUOTES  &kp HASH      &kp LS(NUMBER_4)  &kp AMPERSAND    &mmv MOVE_DOWN   &kp LESS_THAN      &kp GREATER_THAN  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERCENT   &none
 &trans      &kp EXCLAMATION  &kp MINUS          &kp PLUS      &kp EQUAL         &kp SLASH        &mmv MOVE_LEFT   &kp DOUBLE_QUOTES  &kp PERIOD        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION  &none
-&trans      &kp SEMI         &kp UNDERSCORE     &kp CARET     &kp COLON         &kp BACKSLASH    &mmv MOVE_RIGHT  &kp SQT            &kp PERIOD        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp ASTERISK  &trans
+&trans      &kp SEMI         &kp UNDERSCORE     &kp CARET     &kp COLON         &kp BACKSLASH    &mmv MOVE_RIGHT  &kp SQT            &kp PERIOD        &kp LA(LC(DA_N7))     &kp LC(LA(DA_N0))      &kp ASTERISK  &trans
 &kp C_MUTE  &kp LEFT_GUI     &kp LCTRL          &kp LEFT_ALT  &kp SPACE         &sl 0            &mkp LCLK        &trans             &kp ENTER         &kp BACKSPACE         &kt RIGHT_SHIFT        &kp RCTRL
             >;
 
