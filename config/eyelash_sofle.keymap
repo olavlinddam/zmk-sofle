@@ -88,11 +88,11 @@
 
         symbol {
             bindings = <
-&none         &none            &none              &none       &none             &none            &mmv MOVE_UP     &none              &none             &none                     &none              &none            &none
-&trans        &kp TILDE        &kp DOUBLE_QUOTES  &kp HASH    &kp LS(NUMBER_4)  &kp AMPERSAND    &mmv MOVE_DOWN   &kp DA_LESS_THAN   &kp DA_LESS_THAN  &kp LS(LC(LEFT_BRACKET))  &kp LS(LC(DA_N9))  &kp LS(DA_N5)    &none
-&trans        &kp EXCLAMATION  &kp MINUS          &kp PLUS    &kp EQUAL         &kp SLASH        &mmv MOVE_LEFT   &kp DOUBLE_QUOTES  &kp PERIOD        &kp LS(DA_N8)             &kp LS(DA_N9)      &kp LS(DA_PLUS)  &none
-&kp LEFT_GUI  &kp SEMI         &kp UNDERSCORE     &kp CARET   &kp COLON         &kp BACKSLASH    &mmv MOVE_RIGHT  &kp SQT            &kp PERIOD        &kp DA_LEFT_BRACE         &kp LC(LA(DA_N0))  &kp ASTERISK     &trans
-&kp C_MUTE    &kp LEFT_ALT     &kp LCTRL          &kp LSHIFT  &kp SPACE         &sl 0            &mkp LCLK        &kp ENTER          &kp BACKSPACE     &kp RIGHT_SHIFT           &kt RIGHT_CONTROL  &kp DELETE
+&none         &none            &none           &none         &none          &none               &mmv MOVE_UP     &none                 &none                    &none                     &none              &none                &none
+&trans        &kp DA_ONE_HALF  &kp DA_AT_SIGN  &kp DA_POUND  &kp DA_DOLLAR  &kp DA_AMPERSAND    &mmv MOVE_DOWN   &kp DA_QUESTION       &kp DA_LEFT_BRACKET      &kp RBKT                  &kp DA_LESS_THAN   &kp DA_GREATER_THAN  &none
+&trans        &kp DA_EXCL      &kp DA_MINUS    &kp DA_PLUS   &kp DA_EQUAL   &kp DA_FSLH         &mmv MOVE_LEFT   &kp DA_DOUBLE_QUOTES  &kp DA_LEFT_PARENTHESIS  &kp DA_RIGHT_PARENTHESIS  &kp DA_COLON       &kp DA_GRAVE         &none
+&kp LEFT_GUI  &kp DA_TILDE     &kp UNDERSCORE  &kp DA_CARET  &kp DA_STAR    &kp DA_BACKSLASH    &mmv MOVE_RIGHT  &kp DA_SINGLE_QUOTE   &kp DA_LEFT_BRACE        &kp DA_RIGHT_BRACE        &kp DA_SEMICOLON   &kp DA_UMLAUT        &trans
+&kp C_MUTE    &kp LEFT_ALT     &kp LCTRL       &kp LSHIFT    &kp SPACE      &sl 0               &mkp LCLK        &kp ENTER             &kp BACKSPACE            &kp RIGHT_SHIFT           &kt RIGHT_CONTROL  &kp DELETE
             >;
 
             display-name = "layer1";
