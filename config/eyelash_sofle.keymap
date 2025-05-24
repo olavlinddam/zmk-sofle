@@ -48,13 +48,6 @@
     };
 
     macros {
-        ae: ae {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(A) &kp L &kp T &kp PLUS &kp N0 &kp N1 &kp N9 &kp N8>;
-            label = "AE";
-        };
-
         oe: oe {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
