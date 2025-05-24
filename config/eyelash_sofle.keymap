@@ -77,9 +77,9 @@
 
         alpha {
             bindings = <
-&kp ESC       &kp N1        &kp N2     &kp N3          &kp N4     &kp N5    &kp UP_ARROW     &kp N6     &kp N7         &kp N8           &kp N9             &kp N0         &none
+&kp CAPSLOCK  &kp N1        &kp N2     &kp N3          &kp N4     &kp N5    &kp UP_ARROW     &kp N6     &kp N7         &kp N8           &kp N9             &kp N0         &none
 &kp TAB       &kp Q         &kp W      &kp E           &kp R      &kp T     &kp DOWN_ARROW   &kp Y      &kp U          &kp I            &kp O              &kp P          &kp DA_A_RING
-&kp CAPS      &kp A         &kp S      &kp D           &kp F      &kp G     &kp LEFT_ARROW   &kp H      &kp J          &kp K            &kp L              &kp DA_AE      &kp DA_O_SLASH
+&kp ESC       &kp A         &kp S      &kp D           &kp F      &kp G     &kp LEFT_ARROW   &kp H      &kp J          &kp K            &kp L              &kp DA_AE      &kp DA_O_SLASH
 &kp LEFT_GUI  &kp Z         &kp X      &kp C           &kp V      &kp B     &kp RIGHT_ARROW  &kp N      &kp M          &kp COMMA        &kp DOT            &kp RIGHT_ALT  &mo 2
 &kp C_MUTE    &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &kp SPACE  &mo 1     &mkp LCLK        &kp ENTER  &kp BACKSPACE  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp DELETE
             >;
@@ -103,11 +103,11 @@
 
         navigation {
             bindings = <
-&kp ESC       &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp F6     &kp F7          &kp F8          &kp F9     &kp F10      &trans
-&kp TAB       &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &trans     &trans          &kp F11         &kp F12    &kp UNDER    &kp PLUS
-&kp CAPSLOCK  &out OUT_USB  &out OUT_BLE    &mkp RCLK     &mkp LCLK     &trans          &mmv MOVE_LEFT   &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP     &kp RIGHT    &kp RBRC
-&kp LCMD      &sys_reset    &trans          &bootloader   &trans        &trans          &mmv MOVE_RIGHT  &trans     &trans          &sys_reset      &soft_off  &bootloader  &trans
-&trans        &kp LEFT_ALT  &kp LCTRL       &kp LSHIFT    &kp SPACE     &mo 0           &mkp LCLK        &kp ENTER  &kp BACKSPACE   &kp RSHIFT      &kp RCTRL  &kp DELETE
+&kp ESC       &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp F6          &kp F7         &kp F8          &kp F9     &kp F10      &trans
+&kp TAB       &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &trans          &trans         &kp F11         &kp F12    &kp UNDER    &kp PLUS
+&kp CAPSLOCK  &out OUT_USB  &out OUT_BLE    &mkp RCLK     &mkp LCLK     &trans          &mmv MOVE_LEFT   &kp LEFT_ARROW  &kp UP         &kp DOWN_ARROW  &kp RIGHT  &none        &kp RBRC
+&kp LCMD      &sys_reset    &trans          &bootloader   &trans        &trans          &mmv MOVE_RIGHT  &trans          &trans         &sys_reset      &soft_off  &bootloader  &trans
+&trans        &kp LEFT_ALT  &kp LCTRL       &kp LSHIFT    &kp SPACE     &mo 0           &mkp LCLK        &kp ENTER       &kp BACKSPACE  &kp RSHIFT      &kp RCTRL  &kp DELETE
             >;
 
             sensor-bindings = <&scroll_encoder>;
