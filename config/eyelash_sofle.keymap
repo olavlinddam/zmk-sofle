@@ -63,7 +63,14 @@
         };
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        navLayer {
+            bindings = <&mo 2>;
+            key-positions = <61 57>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
