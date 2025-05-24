@@ -58,7 +58,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-esc$$', s: '`'}
+  - {t: layer1, s: navigation}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -123,7 +123,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:keyboard-space$$
-  - {t: LAYER0, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: LAYER0, h: '$$mdi:gesture-tap-hold$$', type: held}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
