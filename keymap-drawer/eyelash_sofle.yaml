@@ -188,11 +188,11 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:keyboard-space$$
-  - LAYER0
+  - {t: LAYER0, type: held alternate}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:apple-keyboard-shift$$', type: held alternate}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:backspace-reverse-outline$$
   '3':
@@ -260,3 +260,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [61, 57]
+  k: navigation
