@@ -44,6 +44,15 @@
         tap-ms = <30>;
     };
 
+    modlayer: modlayer {
+        compatible = "zmk,behavior-mod-morph";
+        label = "MODLAYER";
+        bindings = <&mo 1>, <&mo 2>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_RSFT)>;
+    };
+
     behaviors {
     };
 
@@ -81,7 +90,7 @@
 &kp TAB       &kp Q         &kp W      &kp E           &kp R      &kp T     &kp DOWN_ARROW   &kp Y      &kp U          &kp I            &kp O              &kp P          &kp DA_A_RING
 &kp ESC       &kp A         &kp S      &kp D           &kp F      &kp G     &kp LEFT_ARROW   &kp H      &kp J          &kp K            &kp L              &kp DA_AE      &kp DA_O_SLASH
 &kp LEFT_GUI  &kp Z         &kp X      &kp C           &kp V      &kp B     &kp RIGHT_ARROW  &kp N      &kp M          &kp COMMA        &kp DOT            &kp RIGHT_ALT  &mo 2
-&kp C_MUTE    &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &kp SPACE  &mo 1     &mkp LCLK        &kp ENTER  &kp BACKSPACE  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp DELETE
+&kp C_MUTE    &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &kp SPACE  &gresc    &mkp LCLK        &kp ENTER  &kp BACKSPACE  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -90,11 +99,11 @@
 
         symbol {
             bindings = <
-&none         &none            &none           &none         &none          &none               &mmv MOVE_UP     &none                 &none                    &none                     &none              &none                &none
-&trans        &kp DA_ONE_HALF  &kp DA_AT_SIGN  &kp DA_POUND  &kp DA_DOLLAR  &kp DA_AMPERSAND    &mmv MOVE_DOWN   &kp DA_QUESTION       &kp DA_LEFT_BRACKET      &kp RBKT                  &kp DA_LESS_THAN   &kp DA_GREATER_THAN  &none
-&trans        &kp DA_EXCL      &kp DA_MINUS    &kp DA_PLUS   &kp DA_EQUAL   &kp DA_FSLH         &mmv MOVE_LEFT   &kp DA_DOUBLE_QUOTES  &kp DA_LEFT_PARENTHESIS  &kp DA_RIGHT_PARENTHESIS  &kp DA_COLON       &kp DA_GRAVE         &none
-&kp LEFT_GUI  &kp DA_TILDE     &kp UNDERSCORE  &kp DA_CARET  &kp DA_STAR    &kp DA_BACKSLASH    &mmv MOVE_RIGHT  &kp DA_SINGLE_QUOTE   &kp DA_LEFT_BRACE        &kp DA_RIGHT_BRACE        &kp DA_SEMICOLON   &kp DA_UMLAUT        &trans
-&kp C_MUTE    &kp LEFT_ALT     &kp LCTRL       &kp LSHIFT    &kp SPACE      &sl 0               &mkp LCLK        &kp ENTER             &kp BACKSPACE            &kp RIGHT_SHIFT           &kt RIGHT_CONTROL  &kp DELETE
+&none         &none            &none              &none         &none          &none               &mmv MOVE_UP     &none                 &none                    &none                     &none              &none                &none
+&trans        &kp DA_ONE_HALF  &kp DA_AT_SIGN     &kp DA_POUND  &kp DA_DOLLAR  &kp DA_AMPERSAND    &mmv MOVE_DOWN   &kp DA_QUESTION       &kp DA_LEFT_BRACKET      &kp DA_RIGHT_BRACKET      &kp DA_LESS_THAN   &kp DA_GREATER_THAN  &none
+&trans        &kp DA_EXCL      &kp DA_MINUS       &kp DA_PLUS   &kp DA_EQUAL   &kp DA_FSLH         &mmv MOVE_LEFT   &kp DA_DOUBLE_QUOTES  &kp DA_LEFT_PARENTHESIS  &kp DA_RIGHT_PARENTHESIS  &kp DA_COLON       &kp DA_GRAVE         &none
+&kp LEFT_GUI  &kp DA_TILDE     &kp DA_UNDERSCORE  &kp DA_CARET  &kp DA_STAR    &kp DA_BACKSLASH    &mmv MOVE_RIGHT  &kp DA_SINGLE_QUOTE   &kp DA_LEFT_BRACE        &kp DA_RIGHT_BRACE        &kp DA_SEMICOLON   &kp DA_UMLAUT        &trans
+&kp C_MUTE    &kp LEFT_ALT     &kp LCTRL          &kp LSHIFT    &kp SPACE      &sl 0               &mkp LCLK        &kp ENTER             &kp BACKSPACE            &kp RIGHT_SHIFT           &kt RIGHT_CONTROL  &kp DELETE
             >;
 
             display-name = "layer1";
