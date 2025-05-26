@@ -75,7 +75,7 @@
     k_up: k_up {
         compatible = "zmk,behavior-mod-morph";
         label = "K_UP";
-        bindings = <&kp DA_J>, <&kp UP>;
+        bindings = <&kp DA_K>, <&kp UP>;
 
         #binding-cells = <0>;
         mods = <(MOD_LCTL)>;
