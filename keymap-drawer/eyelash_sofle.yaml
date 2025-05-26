@@ -34,10 +34,10 @@ layers:
   - F
   - G
   - $$mdi:arrow-left-bold$$
-  - H
-  - J
-  - K
-  - L
+  - {t: '(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD H))', s: '$$mdi:arrow-left-bold$$'}
+  - {t: '(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD J))', s: '$$mdi:arrow-down-bold$$'}
+  - {t: '(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD J))', s: '$$mdi:arrow-up-bold$$'}
+  - {t: '(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD L))', s: '$$mdi:arrow-right-bold$$'}
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SEMICOLON AND COLON))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD APOSTROPHE AND QUOTE))
   - $$mdi:apple-keyboard-command$$
