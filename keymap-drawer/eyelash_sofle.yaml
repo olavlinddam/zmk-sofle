@@ -36,7 +36,7 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD H))', s: '$$mdi:arrow-left-bold$$'}
   - {t: '(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD J))', s: '$$mdi:arrow-down-bold$$'}
-  - {t: '(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD J))', s: '$$mdi:arrow-up-bold$$'}
+  - {t: '(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD K))', s: '$$mdi:arrow-up-bold$$'}
   - {t: '(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD L))', s: '$$mdi:arrow-right-bold$$'}
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SEMICOLON AND COLON))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD APOSTROPHE AND QUOTE))
