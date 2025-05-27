@@ -90,6 +90,15 @@
         mods = <(MOD_LCTL)>;
     };
 
+    delete: delete {
+        compatible = "zmk,behavior-mod-morph";
+        label = "DELETE";
+        bindings = <&kp BACKSPACE>, <&kp DELETE>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LSFT)>;
+    };
+
     behaviors {
     };
 
@@ -123,11 +132,11 @@
 
         alpha {
             bindings = <
-&kp CAPSLOCK  &kp N1        &kp N2     &kp N3          &kp N4     &kp N5       &mmv MOVE_UP     &kp N6     &kp N7         &kp N8           &kp N9             &kp N0         &none
-&kp TAB       &kp Q         &kp W      &kp E           &kp R      &kp T        &mmv MOVE_DOWN   &kp Y      &kp U          &kp I            &kp O              &kp P          &kp DA_A_RING
-&kp ESC       &kp A         &kp S      &kp D           &kp F      &kp G        &mmv MOVE_LEFT   &h_left    &j_down        &k_up            &l_right           &kp DA_AE      &kp DA_O_SLASH
-&kp LEFT_GUI  &kp Z         &kp X      &kp C           &kp V      &kp B        &mmv MOVE_RIGHT  &kp N      &kp M          &kp COMMA        &kp DOT            &kp RIGHT_ALT  &mo 2
-&kp C_MUTE    &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &kp SPACE  &modlayer    &mkp LCLK        &kp ENTER  &kp BACKSPACE  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp DELETE
+&kp CAPSLOCK  &kp N1        &kp N2    &kp N3          &kp N4     &kp N5       &mmv MOVE_UP     &kp N6     &kp N7   &kp N8           &kp N9        &kp N0         &none
+&kp TAB       &kp Q         &kp W     &kp E           &kp R      &kp T        &mmv MOVE_DOWN   &kp Y      &kp U    &kp I            &kp O         &kp P          &kp DA_A_RING
+&kp ESC       &kp A         &kp S     &kp D           &kp F      &kp G        &mmv MOVE_LEFT   &h_left    &j_down  &k_up            &l_right      &kp DA_AE      &kp DA_O_SLASH
+&kp LCTRL     &kp Z         &kp X     &kp C           &kp V      &kp B        &mmv MOVE_RIGHT  &kp N      &kp M    &kp COMMA        &kp DOT       &kp LCTRL      &caps_word
+&kp C_MUTE    &kp LEFT_GUI  &kp LALT  &kp LEFT_SHIFT  &kp SPACE  &modlayer    &mkp LCLK        &kp ENTER  &delete  &kp RIGHT_SHIFT  &kp LEFT_ALT  &kp RIGHT_GUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
