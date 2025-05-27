@@ -145,11 +145,11 @@
 
         symbol {
             bindings = <
-&none         &none            &none              &none         &none          &none               &mmv MOVE_UP     &none                 &none                    &none                     &none              &none                &none
-&trans        &kp DA_ONE_HALF  &kp DA_AT_SIGN     &kp DA_POUND  &kp DA_DOLLAR  &kp DA_AMPERSAND    &mmv MOVE_DOWN   &kp DA_QUESTION       &kp DA_LEFT_BRACKET      &kp DA_RIGHT_BRACKET      &kp DA_LESS_THAN   &kp DA_GREATER_THAN  &none
-&trans        &kp DA_EXCL      &kp DA_MINUS       &kp DA_PLUS   &kp DA_EQUAL   &kp DA_FSLH         &mmv MOVE_LEFT   &kp DA_DOUBLE_QUOTES  &kp DA_LEFT_PARENTHESIS  &kp DA_RIGHT_PARENTHESIS  &kp DA_COLON       &kp DA_GRAVE         &none
-&kp LEFT_GUI  &kp DA_TILDE     &kp DA_UNDERSCORE  &kp DA_CARET  &kp DA_STAR    &kp DA_BACKSLASH    &mmv MOVE_RIGHT  &kp DA_SINGLE_QUOTE   &kp DA_LEFT_BRACE        &kp DA_RIGHT_BRACE        &kp DA_SEMICOLON   &kp DA_UMLAUT        &trans
-&kp C_MUTE    &kp LEFT_ALT     &kp LCTRL          &kp LSHIFT    &kp SPACE      &sl 0               &mkp LCLK        &kp ENTER             &kp BACKSPACE            &kp RIGHT_SHIFT           &kt RIGHT_CONTROL  &kp DELETE
+&none       &none            &none              &none         &none          &none               &mmv MOVE_UP     &none                 &none                    &none                     &none             &none                &none
+&trans      &kp DA_ONE_HALF  &kp DA_AT_SIGN     &kp DA_POUND  &kp DA_DOLLAR  &kp DA_AMPERSAND    &mmv MOVE_DOWN   &kp DA_QUESTION       &kp DA_LEFT_BRACKET      &kp DA_RIGHT_BRACKET      &kp DA_LESS_THAN  &kp DA_GREATER_THAN  &none
+&trans      &kp DA_EXCL      &kp DA_MINUS       &kp DA_PLUS   &kp DA_EQUAL   &kp DA_FSLH         &mmv MOVE_LEFT   &kp DA_DOUBLE_QUOTES  &kp DA_LEFT_PARENTHESIS  &kp DA_RIGHT_PARENTHESIS  &kp DA_COLON      &kp DA_GRAVE         &none
+&kp LCTRL   &kp DA_TILDE     &kp DA_UNDERSCORE  &kp DA_CARET  &kp DA_STAR    &kp DA_BACKSLASH    &mmv MOVE_RIGHT  &kp DA_SINGLE_QUOTE   &kp DA_LEFT_BRACE        &kp DA_RIGHT_BRACE        &kp DA_SEMICOLON  &kp LCTRL            &trans
+&kp C_MUTE  &kp LEFT_GUI     &kp LEFT_ALT       &kp LSHIFT    &kp SPACE      &sl 0               &mkp LCLK        &kp ENTER             &delete                  &kp RIGHT_SHIFT           &kt LEFT_ALT      &kp RMETA
             >;
 
             display-name = "layer1";
@@ -158,11 +158,11 @@
 
         navigation {
             bindings = <
-&kp ESC       &kp F1        &kp F2        &kp F3       &kp F4           &kp F5             &mmv MOVE_UP     &kp F6          &kp F7          &kp F8      &kp F9     &kp F10      &trans
-&kp TAB       &bl BL_TOG    &bl BL_INC    &bl BL_DEC   &rgb_ug RGB_TOG  &rgb_ug RGB_EFF    &mmv MOVE_DOWN   &trans          &trans          &kp F11     &kp F12    &kp UNDER    &kp PLUS
-&kp CAPSLOCK  &out OUT_USB  &out OUT_BLE  &mkp RCLK    &mkp LCLK        &trans             &mmv MOVE_LEFT   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP      &kp RIGHT  &none        &kp RBRC
-&kp LCMD      &sys_reset    &trans        &bootloader  &trans           &trans             &mmv MOVE_RIGHT  &trans          &trans          &sys_reset  &soft_off  &bootloader  &trans
-&trans        &kp LEFT_ALT  &kp LCTRL     &kp LSHIFT   &kp SPACE        &mo 0              &mkp LCLK        &kp ENTER       &kp BACKSPACE   &kp RSHIFT  &kp RCTRL  &kp DELETE
+&kp ESC       &kp F1        &kp F2        &kp F3       &kp F4           &kp F5             &mmv MOVE_UP     &kp F6          &kp F7          &kp F8      &kp F9        &kp F10    &trans
+&kp TAB       &bl BL_TOG    &bl BL_INC    &bl BL_DEC   &rgb_ug RGB_TOG  &rgb_ug RGB_EFF    &mmv MOVE_DOWN   &trans          &trans          &kp F11     &kp F12       &kp UNDER  &kp PLUS
+&kp CAPSLOCK  &out OUT_USB  &out OUT_BLE  &mkp RCLK    &mkp LCLK        &trans             &mmv MOVE_LEFT   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP      &kp RIGHT     &none      &kp RBRC
+&kp LCTRL     &sys_reset    &trans        &bootloader  &trans           &trans             &mmv MOVE_RIGHT  &trans          &trans          &sys_reset  &soft_off     &kp LCTRL  &trans
+&trans        &kp LCMD      &kp LEFT_ALT  &kp LSHIFT   &kp SPACE        &mo 0              &mkp LCLK        &kp ENTER       &delete         &kp RSHIFT  &kp LEFT_ALT  &kp RMETA
             >;
 
             sensor-bindings = <&scroll_encoder>;
