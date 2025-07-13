@@ -66,7 +66,7 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - RIGHT GUI
   layer1:
-  - $$mdi:keyboard-esc$$
+  - {t: LAYER0, h: toggle}
   - F2
   - F3
   - F4
@@ -123,7 +123,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:keyboard-space$$
-  - {t: LAYER0, h: toggle, type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$'}
