@@ -99,7 +99,7 @@
     tapSymHoldNav: tapSymHoldNav {
         compatible = "zmk,behavior-hold-tap";
         label = "TAPSYMHOLDNAV";
-        bindings = <&mo>, <&lt>;
+        bindings = <&mo>, <&tog>;
 
         #binding-cells = <2>;
         tapping-term-ms = <200>;
@@ -138,11 +138,11 @@
 
         alpha {
             bindings = <
-&kp CAPSLOCK  &kp N1         &kp N2             &kp N3          &kp N4     &kp N5                &mmv MOVE_UP     &kp N6     &kp N7   &kp N8           &kp N9             &kp N0           &none
-&kp TAB       &kp Q          &kp W              &kp E           &kp R      &kp T                 &mmv MOVE_DOWN   &kp Y      &kp U    &kp I            &kp O              &kp P            &kp DA_A_RING
-&kp ESC       &mt LCMD DA_A  &mt LEFT_ALT DA_S  &mt LCTRL DA_D  &kp F      &kp G                 &mmv MOVE_LEFT   &kp DA_H   &kp J    &mt LCTRL DA_K   &mt LEFT_ALT DA_L  &mt RMETA DA_AE  &kp DA_O_SLASH
-&kp LCTRL     &kp Z          &kp X              &kp C           &kp V      &kp B                 &mmv MOVE_RIGHT  &kp N      &kp M    &kp COMMA        &kp DOT            &kp LCTRL        &caps_word
-&kp C_MUTE    &kp LEFT_GUI   &kp LALT           &kp LEFT_SHIFT  &kp SPACE  &tapSymHoldNav 1 2    &mkp LCLK        &kp ENTER  &delete  &kp RIGHT_SHIFT  &kp LEFT_ALT       &kp RIGHT_GUI
+&kp CAPSLOCK  &kp N1         &kp N2             &kp N3          &kp N4                 &kp N5                &mmv MOVE_UP     &kp N6     &kp N7              &kp N8           &kp N9             &kp N0           &none
+&kp TAB       &kp Q          &kp W              &kp E           &kp R                  &kp T                 &mmv MOVE_DOWN   &kp Y      &kp U               &kp I            &kp O              &kp P            &kp DA_A_RING
+&kp ESC       &mt LCMD DA_A  &mt LEFT_ALT DA_S  &mt LCTRL DA_D  &kp F                  &kp G                 &mmv MOVE_LEFT   &kp DA_H   &kp J               &mt LCTRL DA_K   &mt LEFT_ALT DA_L  &mt RMETA DA_AE  &kp DA_O_SLASH
+&kp LCTRL     &kp Z          &kp X              &kp C           &kp V                  &kp B                 &mmv MOVE_RIGHT  &kp N      &kp M               &kp COMMA        &kp DOT            &kp LCTRL        &caps_word
+&kp C_MUTE    &kp LEFT_GUI   &kp LALT           &kp LEFT_SHIFT  &mt LEFT_ALT DA_SPACE  &tapSymHoldNav 1 2    &mkp LCLK        &kp ENTER  &mt LALT BACKSPACE  &kp RIGHT_SHIFT  &kp DELETE         &kp RIGHT_GUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -155,7 +155,7 @@
 &kp TAB     &kp DA_ONE_HALF  &kp DA_AT_SIGN     &kp DA_POUND  &kp DA_DOLLAR  &kp DA_AMPERSAND    &mmv MOVE_DOWN   &kp DA_QUESTION       &kp DA_LEFT_BRACKET      &kp DA_RIGHT_BRACKET      &kp DA_LESS_THAN  &kp DA_GREATER_THAN  &kp DA_PIPE
 &kp ESC     &kp DA_EXCL      &kp DA_MINUS       &kp DA_PLUS   &kp DA_EQUAL   &kp DA_FSLH         &mmv MOVE_LEFT   &kp DA_DOUBLE_QUOTES  &kp DA_LEFT_PARENTHESIS  &kp DA_RIGHT_PARENTHESIS  &kp DA_COLON      &kp DA_GRAVE         &kp DA_PERCENT
 &kp LCTRL   &kp DA_TILDE     &kp DA_UNDERSCORE  &kp DA_CARET  &kp DA_STAR    &kp DA_BACKSLASH    &mmv MOVE_RIGHT  &kp DA_SINGLE_QUOTE   &kp DA_LEFT_BRACE        &kp DA_RIGHT_BRACE        &kp DA_SEMICOLON  &kp LCTRL            &trans
-&kp C_MUTE  &kp LEFT_GUI     &kp LEFT_ALT       &kp LSHIFT    &kp SPACE      &to 0               &mkp LCLK        &kp ENTER             &delete                  &kp RIGHT_SHIFT           &kt LEFT_ALT      &kp RMETA
+&kp C_MUTE  &kp LEFT_GUI     &kp LEFT_ALT       &kp LSHIFT    &kp SPACE      &tog 0              &mkp LCLK        &kp ENTER             &delete                  &kp RIGHT_SHIFT           &kt LEFT_ALT      &kp RMETA
             >;
 
             display-name = "layer1";
@@ -164,11 +164,11 @@
 
         nav-num {
             bindings = <
-&kp ESC       &kp F1           &kp F2        &kp F3      &kp F4     &kp F5          &mmv MOVE_UP     &kp F6          &kp F7          &kp F8      &kp F9        &kp F10    &kp F11
-&kp TAB       &kp DA_SLASH     &kp DA_N1     &kp DA_N2   &kp DA_N3  &kp DA_PLUS     &mmv MOVE_DOWN   &trans          &trans          &kp F11     &kp F12       &kp UNDER  &kp F12
-&kp CAPSLOCK  &kp DA_ASTERISK  &kp DA_N4     &kp DA_N5   &kp DA_N6  &kp DA_MINUS    &mmv MOVE_LEFT   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP      &kp RIGHT     &none      &kp RBRC
-&kp LCTRL     &kp DA_DOT       &kp DA_N7     &kp DA_N8   &kp DA_N9  &kp DA_N0       &mmv MOVE_RIGHT  &trans          &trans          &sys_reset  &soft_off     &kp LCTRL  &trans
-&trans        &kp LCMD         &kp LEFT_ALT  &kp LSHIFT  &kp SPACE  &tog 0          &mkp LCLK        &kp ENTER       &delete         &kp RSHIFT  &kp LEFT_ALT  &kp RMETA
+&kp ESC       &kp F1           &kp F2        &kp F3      &kp F4     &kp F5                &mmv MOVE_UP     &kp F6          &kp F7          &kp F8      &kp F9        &kp F10    &kp F11
+&kp TAB       &kp DA_SLASH     &kp DA_N1     &kp DA_N2   &kp DA_N3  &kp DA_PLUS           &mmv MOVE_DOWN   &trans          &trans          &kp F11     &kp F12       &kp UNDER  &kp F12
+&kp CAPSLOCK  &kp DA_ASTERISK  &kp DA_N4     &kp DA_N5   &kp DA_N6  &kp DA_MINUS          &mmv MOVE_LEFT   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP      &kp RIGHT     &none      &kp RBRC
+&kp LCTRL     &kp DA_DOT       &kp DA_N7     &kp DA_N8   &kp DA_N9  &kp DA_N0             &mmv MOVE_RIGHT  &trans          &trans          &sys_reset  &soft_off     &kp LCTRL  &trans
+&trans        &kp LCMD         &kp LEFT_ALT  &kp LSHIFT  &kp SPACE  &tapSymHoldNav 1 0    &mkp LCLK        &kp ENTER       &delete         &kp RSHIFT  &kp LEFT_ALT  &kp RMETA
             >;
 
             sensor-bindings = <&scroll_encoder>;
