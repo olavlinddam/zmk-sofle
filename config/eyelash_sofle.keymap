@@ -150,11 +150,11 @@
 
         alpha {
             bindings = <
-&kp F1      &kp F2        &kp F3    &kp F4          &kp F5                             &kp F6                  &mmv MOVE_UP     &kp F7     &kp F8                          &kp F9                              &kp F10       &kp F11        &kp F12
-&kp TAB     &kp Q         &kp W     &kp E           &kp R                              &kp T                   &mmv MOVE_DOWN   &kp Y      &kp U                           &kp I                               &kp O         &kp P          &kp DA_A_RING
-&kp ESC     &kp DA_A      &kp S     &kp DA_D        &kp F                              &kp G                   &mmv MOVE_LEFT   &kp DA_H   &kp J                           &kp DA_K                            &kp DA_L      &kp DA_AE      &kp DA_O_SLASH
-&kp LCTRL   &kp Z         &kp X     &kp C           &kp V                              &kp B                   &mmv MOVE_RIGHT  &kp N      &kp M                           &kp COMMA                           &kp DOT       &kp DA_A_RING  &kp RCTRL
-&kp C_MUTE  &kp CAPSLOCK  &kp LWIN  &kp LEFT_SHIFT  &tapHoldPrefTap LEFT_ALT DA_SPACE  &tapHoldPrefHold 1 2    &mkp LCLK        &kp ENTER  &tapHoldPrefTap LALT BACKSPACE  &tapHoldPrefTap RIGHT_SHIFT DELETE  &kp LEFT_WIN  &kp RIGHT_ALT
+&kp CAPS    &kp DA_N1     &kp DA_N2  &kp DA_N3       &kp DA_N4                          &kp DA_N5               &mmv MOVE_UP     &kp DA_N6  &kp DA_N7                       &kp DA_N8                           &kp DA_N9     &kp DA_N0      &none
+&kp TAB     &kp Q         &kp W      &kp E           &kp R                              &kp T                   &mmv MOVE_DOWN   &kp Y      &kp U                           &kp I                               &kp O         &kp P          &kp DA_A_RING
+&kp ESC     &kp DA_A      &kp S      &kp DA_D        &kp F                              &kp G                   &mmv MOVE_LEFT   &kp DA_H   &kp J                           &kp DA_K                            &kp DA_L      &kp DA_AE      &kp DA_O_SLASH
+&kp LCTRL   &kp Z         &kp X      &kp C           &kp V                              &kp B                   &mmv MOVE_RIGHT  &kp N      &kp M                           &kp COMMA                           &kp DOT       &kp DA_A_RING  &kp RCTRL
+&kp C_MUTE  &kp CAPSLOCK  &kp LWIN   &kp LEFT_SHIFT  &tapHoldPrefTap LEFT_ALT DA_SPACE  &tapHoldPrefHold 1 2    &mkp LCLK        &kp ENTER  &tapHoldPrefTap LALT BACKSPACE  &tapHoldPrefTap RIGHT_SHIFT DELETE  &kp LEFT_WIN  &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
