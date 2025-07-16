@@ -105,6 +105,8 @@
         tapping-term-ms = <124>;
         hold-while-undecided;
         hold-while-undecided-linger;
+        require-prior-idle-ms = <0>;
+        quick-tap-ms = <200>;
     };
 
     tapHoldPrefTap: tapHoldPrefTap {
