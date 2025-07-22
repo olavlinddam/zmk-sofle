@@ -51,7 +51,7 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: nav-num, h: toggle}
+  - nav-num
   - $$mdi:apple-keyboard-control$$
   - $$mdi:volume-off$$
   - LGUI
@@ -181,14 +181,14 @@ layers:
   - PgDn
   - PgUp
   - END
-  - {t: LAYER0, h: toggle}
+  - {t: LAYER0, h: toggle, type: held}
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-caps$$
   - LWIN
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: layer1, type: held}
+  - {t: layer1, type: held alternate}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-option$$'}
