@@ -51,14 +51,14 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD LEFT BRACKET AND LEFT BRACE))
+  - {t: nav-num, h: toggle}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:volume-off$$
   - LGUI
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:keyboard-space$$
-  - {t: nav-num, h: layer1}
+  - {t: layer1, s: nav-num}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -181,18 +181,18 @@ layers:
   - PgDn
   - PgUp
   - END
-  - $$mdi:apple-keyboard-control$$
+  - {t: LAYER0, h: toggle}
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-caps$$
   - LWIN
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: LAYER0, h: layer1, type: held}
+  - {t: layer1, type: held}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-shift$$', type: held}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-shift$$', type: held alternate}
   - LEFT WIN
   - $$mdi:apple-keyboard-option$$
   '3':
