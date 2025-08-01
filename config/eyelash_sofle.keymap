@@ -187,10 +187,10 @@
 
         symbol {
             bindings = <
-&kp F1      &kp F2           &kp F3             &kp F4        &kp F5         &kp F6              &mmv MOVE_UP     &kp F7                &kp F8                   &kp F9                              &kp F10           &kp F11              &kp F12
-&kp TAB     &kp DA_ONE_HALF  &kp DA_AT_SIGN     &kp DA_POUND  &kp DA_DOLLAR  &kp DA_AMPERSAND    &mmv MOVE_DOWN   &kp DA_QUESTION       &kp DA_LEFT_BRACKET      &kp DA_RIGHT_BRACKET                &kp DA_LESS_THAN  &kp DA_GREATER_THAN  &kp DA_PIPE
-&kp ESC     &kp DA_EXCL      &kp DA_MINUS       &kp DA_PLUS   &kp DA_EQUAL   &kp DA_FSLH         &mmv MOVE_LEFT   &kp DA_DOUBLE_QUOTES  &kp DA_LEFT_PARENTHESIS  &kp DA_RIGHT_PARENTHESIS            &kp DA_COLON      &kp DA_GRAVE         &kp DA_PERCENT
-&kp LCTRL   &kp DA_TILDE     &kp DA_UNDERSCORE  &kp DA_CARET  &kp DA_STAR    &kp DA_BACKSLASH    &mmv MOVE_RIGHT  &kp DA_SINGLE_QUOTE   &kp DA_LEFT_BRACE        &kp DA_RIGHT_BRACE                  &kp DA_SEMICOLON  &to 0                &kp LCTRL
+&kp F1      &kp F2           &kp F3             &kp F4        &kp F5         &kp F6              &mmv MOVE_UP     &kp F7                &kp F8                   &kp F9                              &kp F10           &kp F11               &kp F12
+&kp TAB     &kp DA_ONE_HALF  &kp DA_AT_SIGN     &kp DA_POUND  &kp DA_DOLLAR  &kp DA_AMPERSAND    &mmv MOVE_DOWN   &kp DA_QUESTION       &kp DA_LEFT_BRACKET      &kp DA_RIGHT_BRACKET                &kp DA_LESS_THAN  &kp DA_GREATER_THAN   &kp DA_PIPE
+&kp ESC     &kp DA_EXCL      &kp DA_MINUS       &kp DA_PLUS   &kp DA_EQUAL   &kp DA_FSLH         &mmv MOVE_LEFT   &kp DA_DOUBLE_QUOTES  &kp DA_LEFT_PARENTHESIS  &kp DA_RIGHT_PARENTHESIS            &kp DA_COLON      &apostrophe_backtick  &kp DA_PERCENT
+&kp LCTRL   &kp DA_TILDE     &kp DA_UNDERSCORE  &kp DA_CARET  &kp DA_STAR    &kp DA_BACKSLASH    &mmv MOVE_RIGHT  &kp DA_SINGLE_QUOTE   &kp DA_LEFT_BRACE        &kp DA_RIGHT_BRACE                  &kp DA_SEMICOLON  &to 0                 &kp LCTRL
 &kp C_MUTE  &kp LCMD         &kp LEFT_ALT       &kp LSHIFT    &kp SPACE      &none               &mkp LCLK        &kp ENTER             &kp BACKSPACE            &tapHoldPrefTap RIGHT_SHIFT DELETE  &kp LEFT_ALT      &kp LWIN
             >;
 
