@@ -13,7 +13,7 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 8 AND ASTERISK))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 9 AND LEFT PARENTHESIS))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 0 AND RIGHT PARENTHESIS))
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:backspace-reverse-outline$$
   - $$mdi:keyboard-tab$$
   - Q
   - W
