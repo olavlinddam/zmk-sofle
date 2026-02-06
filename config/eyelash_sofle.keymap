@@ -5,6 +5,7 @@
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 #include "keys_da.h"
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
@@ -203,7 +204,7 @@
 &kp F1     &kp F2           &kp F3     &kp F4      &kp F5                          &kp F6          &mmv MOVE_UP     &kp F7          &kp F8                              &kp F9                         &kp F10       &kp F11        &kp F12
 &kp TAB    &kp DA_SLASH     &kp DA_N7  &kp DA_N8   &kp DA_N9                       &kp DA_PLUS     &mmv MOVE_DOWN   &none           &none                               &none                          &none         &none          &none
 &kp ESC    &kp DA_ASTERISK  &kp DA_N4  &kp DA_N5   &kp DA_N6                       &kp DA_MINUS    &mmv MOVE_LEFT   &kp LEFT_ARROW  &kp DOWN_ARROW                      &kp UP                         &kp RIGHT     &none          &none
-&kp LCTRL  &kp DA_DOT       &kp DA_N1  &kp DA_N2   &kp DA_N3                       &kp DA_N0       &mmv MOVE_RIGHT  &kp HOME        &kp PAGE_DOWN                       &kp PAGE_UP                    &kp END       &to 0          &kp LEFT_CONTROL
+&kp LCTRL  &bt BT_CLR_ALL   &kp DA_N1  &kp DA_N2   &kp DA_N3                       &kp DA_N0       &mmv MOVE_RIGHT  &kp HOME        &kp PAGE_DOWN                       &kp PAGE_UP                    &kp END       &to 0          &kp LEFT_CONTROL
 &trans     &kp CAPSLOCK     &kp LWIN   &kp LSHIFT  &tapHoldPrefTap LEFT_ALT SPACE  &mo 1           &mkp LCLK        &kp ENTER       &tapHoldPrefTap LEFT_ALT BACKSPACE  &tapHoldPrefTap RSHIFT DELETE  &kp LEFT_WIN  &kp RIGHT_ALT
             >;
 
